@@ -57,7 +57,7 @@
         {
             var response1 = await apiService.Get<ExchangeRates>(
                 "https://openexchangerates.org",
-                "/api/latest.json?app_id=f490efbcd52d48ee98fd62cf33c47b9e");
+                "/api/latest.json?app_id=bcf7d0c625de4836a581e3ebe7570866");
 
             if (!response1.IsSuccess)
             {
